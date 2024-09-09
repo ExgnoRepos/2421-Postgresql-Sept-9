@@ -1,4 +1,4 @@
-# Lab 3-1 : Installing PQ 
+# Lab 3-1 : Installing PostgreSQL 
 
 ### Objectives
 
@@ -6,11 +6,33 @@
 2. Install from binaries
 3. Create a user and database
 4. Configure remote access
-5. Restart and test
+
+## Update
+
+The key required for logging in remotely cannot be stored in the GitHub repository since the security protocols will not allow it.
+
+Instead, you will have to download it separately from a utility website.
+
+
+
 
 ### Part 1: Login to your AWS machine
 
-You will be provided with an IP address for an AWS EC2 instance running ubuntu. In the lab directory is a ppk file that you can use to remote into your ubuntu instance. The instructor will walk you through the process of logging into your VMs. There is additional documentation on this process in the VMs directory in the repository.
+You will be provided with an IP address for an AWS EC2 instance running ubuntu. ~~In the lab directory is a ppk file that you can use to remote into your ubuntu instance.~~ The instructor will walk you through the process of logging into your VMs. There is additional documentation on this process in the VMs directory in the repository.
+
+Update: The ppk key cannot be stored in the GitHub repository. Instead, you have to download it from a utility website.
+
+Open a command prompt in your VM and go the director you want to work in. 
+
+Execute the command:
+
+```shell
+curl -o studentpostgres.ppk http://exgnosis.org:80/studentpostgres.ppk
+```
+Which should look like this
+
+<img src="images/key.png" alt="" width="600">
+
 
 You will be using Putty to connect.
 
