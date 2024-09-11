@@ -77,12 +77,6 @@ sudo apt update
 sudo apt upgrade
 ```
 
-You may have to restart your instance, if you do, then execute
-
-```shell
-sudo reboot
-```
-
 This will invalidate your putty connection so you will have to reconnect.
 
 #### Install from the Ubuntu distribution
@@ -213,7 +207,7 @@ Save the file
 Reboot your instance so the changes can take effect
 
 ```shell
-sudo reboot
+sudo service postgresql restart
 ```
 Then login again over Putty.
 

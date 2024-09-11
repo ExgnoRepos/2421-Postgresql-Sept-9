@@ -1,4 +1,4 @@
-# Lab 5 : Query Optimization Using E
+# Lab 5 : Query Optimization Using Explain
 
 ## Objectives
  
@@ -129,4 +129,6 @@ Ways to optimize
 - Vacuum and Reanalyze: Regularly run VACUUM and ANALYZE to keep statistics up-to-date.
 - Query Hints: Use query hints (e.g., SET enable_seqscan = OFF;) to test alternative plans.
 - Partitioning: Consider partitioning large tables if queries often filter by specific ranges or keys.
+
+
 ## End Lab
