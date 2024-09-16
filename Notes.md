@@ -1,6 +1,27 @@
 # Class Notes
 
-## Updates
+rod@exgnosis.ca
+
+## Migrating DB2 to PostgreSQL
+
+[Migrating from DB2 to PostgreSQL – What You Should Know](https://severalnines.com/blog/migrating-db2-postgresql-what-you-should-know/)
+
+[Converting from other Databases to PostgreSQL](https://wiki.postgresql.org/wiki/Converting_from_other_Databases_to_PostgreSQL)
+
+[IBM DB2 to PostgreSQL Migration](http://www.sqlines.com/db2-to-postgresql)
+
+Additional guide has been added to the extras directory
+
+## Migrating SQL server to PostgreSQL
+
+[Migrate a SQL Server Database to a PostgreSQL Database](https://www.mssqltips.com/sqlservertip/8039/migrate-a-sql-server-database-to-a-postgresql-database/)
+
+[SQL Server to Postgres – A Step-by-Step Migration Journey](https://bryteflow.com/sql-server-vs-postgres-how-to-migrate-sql-to-postgresql/)
+
+[Migrating from SQL Server to PostgreSQL: A Comprehensive Guide](https://pradeepl.com/blog/migrating-from-sql-server-to-postgresql/)
+
+
+    
 
 ## Incrementally refreshable materialized views
 
