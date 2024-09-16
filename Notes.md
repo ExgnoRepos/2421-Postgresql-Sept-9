@@ -1,5 +1,7 @@
 # Class Notes
 
+## Updates
+
 ## Incrementally refreshable materialized views
 
 PostgreSQL 16 introduced support for incrementally refreshable materialized views,
